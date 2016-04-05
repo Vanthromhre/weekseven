@@ -1,0 +1,40 @@
+body {
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div {
+    width: 100px;
+    height: 60px;
+    margin: 10px
+    border: 1px solid green;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+#one {
+    order: 1;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 3;
+}
+
+#four {
+    order: 4;
+}
+
+#five {
+    order: 5;
+}
+
+#six {
+    order: 6;
+}

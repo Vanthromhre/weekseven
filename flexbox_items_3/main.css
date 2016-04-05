@@ -1,0 +1,19 @@
+.container {
+    height: 700px;
+    border: 5px solid red;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: darkred;
+    text-align: center;
+    flex-grow: 1;
+}

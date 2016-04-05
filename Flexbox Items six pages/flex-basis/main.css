@@ -1,0 +1,19 @@
+body {
+    display: flex;
+}
+
+div {
+    border: 1px solid green;
+    background-color: darkgreen;
+    height: 100px;
+    width: 200px;
+    flex-basis: auto;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 2;
+}

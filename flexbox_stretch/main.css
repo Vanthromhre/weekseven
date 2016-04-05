@@ -1,0 +1,24 @@
+.box {
+    height: 600px;
+    border: 5px solid darkred;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.short {
+    width: 300px;
+    margin: 1px;
+    border: 1px solid darkred;
+    background-color: red;
+    text-align: center;
+}
+
+.hght{
+    height: 50%;
+}
+
+.long {
+    align-self: stretch;
+}

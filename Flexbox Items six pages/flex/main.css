@@ -1,0 +1,16 @@
+.one {
+    display: flex;
+    border: 5px solid darkgreen;
+}
+
+.buttons {
+    width: 250px;
+    height: 125px;
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    text-align: center;
+    flex: 1 1 auto;
+
+}
